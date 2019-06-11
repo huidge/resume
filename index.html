@@ -3,6 +3,19 @@
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+  
+  .items{
+    display: flex;align-items:center;justify-content: center;flex-wrap: wrap;
+  }
+  .item{
+    display: flex;flex-direction: column;align-items: center;
+  }
+  .img{
+    width:80px;
+    height: 80px;
+  }
+</style>
   <style type="text/css" data-tag-name="trix-editor">trix-editor:empty:not(:focus)::before {
   content: attr(placeholder);
   color: graytext;
@@ -271,7 +284,7 @@ var _hmt = _hmt || [];
          <div class="editor-sub-header-title" style="width: 74% !important;margin: 0 auto;"> 
           <span>已离职</span> | 
           <span>求职意向：Web前端开发</span> | 
-          <span>期望薪资：10k-15k</span> 
+          <span>期望薪资：12k-15k</span> 
          </div> 
         </div> 
         <div class="applicant-avatar"> 
@@ -333,8 +346,8 @@ var _hmt = _hmt || [];
               <span class=""> 上海聪贝网络科技有限公司 </span> 
              </div> 
              <div class="right "> 
-              <span class="normal-time"> <span class="" data-placeholder="开始时间">2018年6月</span> - <span class="" data-placeholder="结束时间">至今</span> </span> 
-              <span class="num-time"> 2018.06 - 至今 </span> 
+              <span class="normal-time"> <span class="" data-placeholder="开始时间">2018年6月</span> - <span class="" data-placeholder="结束时间">2019年2月</span> </span> 
+              <span class="num-time"> 2018.06 - 2019.02 </span> 
              </div> 
             </div> 
             <div class="tag-second-line clearfix "> 
@@ -401,7 +414,58 @@ var _hmt = _hmt || [];
          </div> 
         </div> 
        </div>
-       <div class="resume-editor-plate custom-editor no-hover-action custom-2" id="custom-2"> 
+      
+       <div class="resume-editor-plate edu-editor no-hover-action edus" id="edus"> 
+        <div class="resume-editor-plate-title" style="border-bottom-color:#404040"> 
+         <div class="title-text">
+           教育经历 
+         </div> 
+        </div> 
+        <div class="edus-content "> 
+         <div class="resume-editor-plate-item edu" id="edu-1389396"> 
+          <div class="plate-item-tag"> 
+           <div class="plate-item-tag-title"> 
+            <div class="tag-first-line clearfix"> 
+             <div class="left"> 
+              <span class="
+            "> 河南科技大学 </span> 
+             </div> 
+             <div class="right "> 
+              <span class="normal-time"> 2014年9月 - <span class="">2018年6月</span></span> 
+              <span class="num-time"> 2014.09 - 2018.06</span> 
+             </div> 
+
+            </div> 
+            <div class="tag-second-line clearfix"> 
+             <div class="left 
+        "> 
+              <span class="" data-placeholder="专业"> 计算机科学与技术 </span> 
+              <span class="" data-placeholder="学历"> 本科 </span> 
+              <span class=" "> 信息工程学院 </span> 
+             </div> 
+             <div class="right "> 
+              <span class="
+            "> 洛阳 </span> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="plate-item-content description-content
+            " data-has-template="false"> 
+            <ul> 
+             <li>GPA：3.71 / 4.0（专业前10%）| 荣誉/奖项：国家励志奖学金</li> 
+            </ul> 
+           </div> 
+           <div class="default-description-content" style="display: none;"> 
+            <ul> 
+             <li>GPA：X.X / 4.0（专业前X%）| 荣誉/奖项：XX奖学金、XX领导力奖 [如有可以写不超过一行，工作2年以上这行建议省略]</li> 
+            </ul> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div>
+
+        <div class="resume-editor-plate custom-editor no-hover-action custom-2" id="custom-2"> 
         <div class="resume-editor-plate-title" style="border-bottom-color:#404040"> 
          <div class="title-text
                 ">
@@ -434,10 +498,17 @@ var _hmt = _hmt || [];
             </div> 
            </div> 
            <div id="cust_info_des_1720672" class="plate-item-content description-content" data-has-template="false"> 
-            <ul> 
-             <li>熊猫地图 <a href="https://github.com/huidge/the-map-of-panda-in-china%EF%BC%9A%E5%85%A8%E5%9B%BD%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%88%86%E5%B8%83%E5%9C%B0%E5%9B%BE">https://github.com/huidge/the-map-of-panda-in-china</a>&nbsp;：全国大熊猫分布地图</li> 
-             <li>微信小程序：上海实时公交地铁线路查询小程序、智能聊天机器人小程序、校园导览小程序、幼儿绘本小程序</li> 
-             <li>个人在线简历 <a href="https://www.guozhihui.top">https://www.guozhihui.top</a>
+            <ul class="items">
+             <!-- <li>个人在线简历 <a href="https://www.guozhihui.top">https://www.guozhihui.top</a>-->
+              <li class="item">黑羊商店<img class="img" src="http://www.guozhihui.top/images/heiyang2.jpg">
+              </li> 
+             <li class="item">YoungPass学生特权<img class="img" src="http://www.guozhihui.top/images/xuesheng2.jpg">
+             </li> 
+              <li class="item">售票猿  <img class="img" src="http://www.guozhihui.top/images/shoupiaoyuan2.jpeg"></li> 
+             <li class="item">上海旅游攻略指南  <img class="img" src="http://www.guozhihui.top/images/gonglve2.jpeg"></li> 
+             <li class="item">上海公交地铁卡余额查询  <img class="img" src="http://www.guozhihui.top/images/bus&subway2.jpeg"></li> 
+             <li class="item">幼儿绘本小程序 <img class="img" src="http://www.guozhihui.top/images/huiben2.jpeg"></li>
+             
             </ul> 
            </div> 
            <div class="default-description-content" style="display: none;"> 
@@ -451,54 +522,7 @@ var _hmt = _hmt || [];
          </div> 
         </div> 
        </div>
-       <div class="resume-editor-plate edu-editor no-hover-action edus" id="edus"> 
-        <div class="resume-editor-plate-title" style="border-bottom-color:#404040"> 
-         <div class="title-text">
-           教育经历 
-         </div> 
-        </div> 
-        <div class="edus-content "> 
-         <div class="resume-editor-plate-item edu" id="edu-1389396"> 
-          <div class="plate-item-tag"> 
-           <div class="plate-item-tag-title"> 
-            <div class="tag-first-line clearfix"> 
-             <div class="left"> 
-              <span class="
-            "> 河南科技大学 </span> 
-             </div> 
-             <div class="right "> 
-              <span class="normal-time"> 2014年9月 - <span class="">2018年6月</span></span> 
-              <span class="num-time"> 2014.09 - 2018.06</span> 
-             </div> 
-            </div> 
-            <div class="tag-second-line clearfix"> 
-             <div class="left 
-        "> 
-              <span class="" data-placeholder="专业"> 计算机科学与技术 </span> 
-              <span class="" data-placeholder="学历"> 本科 </span> 
-              <span class=" "> 信息工程学院 </span> 
-             </div> 
-             <div class="right "> 
-              <span class="
-            "> 洛阳 </span> 
-             </div> 
-            </div> 
-           </div> 
-           <div class="plate-item-content description-content
-            " data-has-template="false"> 
-            <ul> 
-             <li>GPA：3.71 / 4.0（专业前10%）| 荣誉/奖项：国家励志奖学金</li> 
-            </ul> 
-           </div> 
-           <div class="default-description-content" style="display: none;"> 
-            <ul> 
-             <li>GPA：X.X / 4.0（专业前X%）| 荣誉/奖项：XX奖学金、XX领导力奖 [如有可以写不超过一行，工作2年以上这行建议省略]</li> 
-            </ul> 
-           </div> 
-          </div> 
-         </div> 
-        </div> 
-       </div>
+
       </div> 
      </div> 
     </div> 
